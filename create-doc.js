@@ -13,7 +13,12 @@
         var result = await client.query(
           q.Create(
             q.Collection('firstCollection'),
-            { data: { title: 'Serverless applications Database' } },
+            { data: { 
+
+name:"shamaz",
+age:22
+
+            } },
           )
         );
         console.log(result);
